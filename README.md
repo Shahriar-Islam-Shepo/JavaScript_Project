@@ -12,7 +12,7 @@ Each project is self-contained, easy to understand, and focuses on core web deve
  ## How to Use
  1.Clone the repository: 
  bash
-   git clone https://github.com/Shahriar-Islam-Shepo/JavaScript_Project/edit/main
+   git clone https://github.com/Shahriar-Islam-Shepo/JavaScript_Project
 
  
  2.Open any project folder:
