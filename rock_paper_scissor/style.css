@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e0e1dd;
+    
+}
+#title{
+    width: 100vw;
+    height: 10vh;
+    background-color: #0d1b2a;
+    color:white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+#icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+  width: 150px;
+  height: 150px;
+  background-color: #0d1b2a;
+  border-radius: 50%;
+  
+ margin:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.fa-hand-back-fist{
+    font-size: 100px;
+    color:white;
+
+}
+.fa-hand{
+    font-size: 100px;
+    color:white;
+}
+.fa-hand-scissors{
+    font-size: 100px;
+    color:white;
+}
+
+#score-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    font-size:20px;
+    margin: 30px;
+    text-align: center;
+}
+#button-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#btn1{
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#0d1b2a;
+    color:white;
+    margin: 30px;
+    border-radius: 100px;
+}
+
+#btn2{
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#0d1b2a;
+    color:white;
+    margin: 30px;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.icon:hover{
+    border: 5px solid #ffd500;
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background-color: white;
+    color:#0d1b2a;
+    cursor: pointer;
+}
