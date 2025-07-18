@@ -1,0 +1,30 @@
+body{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+    
+}
+#main{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+
+#score{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#name{
+    margin-right: 20px;
+}
+
+
