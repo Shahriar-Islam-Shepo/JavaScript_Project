@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+#two{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 1px 5px 5px 5px rgb(160, 127, 127);
+}
+#one{
+    border: 1px solid black;
+}
+#three{
+    border: 1px solid black;
+}
+.fa-solid{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+/* .ima{
+    transform: translate(-1600px);
+    
+} */
